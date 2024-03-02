@@ -47,6 +47,7 @@
   letter-spacing: 0.32px;
   display: flex;
   align-items: center;
+  margin-right: 0 auto;
 }
 
 .contact {
@@ -166,6 +167,9 @@
 
 .our-team-background {
   background-color: var(--cloud);
+  padding-bottom: 120px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .team-names {
@@ -337,7 +341,6 @@
 .ul-header {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .border-header {
@@ -358,6 +361,8 @@ ul {
 address {
   font-style: normal;
   padding: 24px 0;
+  display: flex;
+  margin-left: 332px;
 }
 
 .header-address {
@@ -560,29 +565,6 @@ img {
 
 .headline-icons {
   margin-left: 120px;
-}
-
-.studio-underline::after {
-  content: "";
-  background-color: var(--ocean);
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-  display: block;
-  position: relative;
-  top: 25px;
-  bottom: -1px;
-}
-
-.portfolio-underline::after {
-  content: "";
-  background-color: var(--ocean);
-  border-radius: 2px;
-  width: 66px;
-  height: 4px;
-  display: block;
-  position: relative;
-  top: 25px;
 }
 
 .portfolio-animation {
