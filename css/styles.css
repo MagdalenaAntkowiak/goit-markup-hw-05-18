@@ -684,8 +684,8 @@ img {
 
 .close-btn:hover,
 .close-btn:focus {
-  fill: var(--white);
-  background-color: var(--ocean);
+  fill: #ffffff;
+  background-color: #404bbf;
   border: none;
 }
 
@@ -793,12 +793,12 @@ input::placeholder {
 
 .input-form:hover,
 .input-form:focus {
-  border-color: var(--iris);
+  border-color: #4d5ae5;
 }
 
 .input-form:hover + svg,
 .input-form:focus + svg {
-  fill: var(--iris);
+  fill: #4d5ae5;
 }
 
 .svg-modal {
@@ -832,7 +832,7 @@ input::placeholder {
 
 .textarea-form:focus,
 .textarea-form:hover {
-  border-color: var(--iris);
+  border-color: #4d5ae5;
 }
 
 .form-checkbox {
@@ -863,9 +863,9 @@ input::placeholder {
 }
 
 .input-privacy:checked + .label-checkbox span {
-  background-color: var(--ocean);
+  background-color: #404bbf;
   border: none;
-  fill: var(--cloud);
+  fill: #f4f4fd;
 }
 
 .privacy {
